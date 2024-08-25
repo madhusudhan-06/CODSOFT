@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script src="script.js" defer="defer"></script>
+  <link rel="icon" type="image/x-icon" href="calculator.png">
+
+  <title>Calculator</title>
+</head>
+
+<body>
+  <header>
+    <center>
+      <h1>Calculator</h1>
+    </center>
+  </header>
+  <div class="outer">
+    <div class="inner">
+      <input id="set" type="text" />
+
+
+      <div class="body">
+        <button onclick="clearAll()">AC</button>
+        <button onclick="setDisplay('%')">%</button>
+        <button onclick="clearSingle()">C</button>
+        <button onclick="setDisplay('/')">/</button>
+        <button onclick="setDisplay(7)">7</button>
+        <button onclick="setDisplay(8)">8</button>
+        <button onclick="setDisplay(9)">9</button>
+        <button onclick="setDisplay('*')">X</button>
+        <button onclick="setDisplay(4)">4</button>
+        <button onclick="setDisplay(5)">5</button>
+        <button onclick="setDisplay(6)">6</button>
+        <button onclick="setDisplay('-')">-</button>
+        <button onclick="setDisplay(1)">1</button>
+        <button onclick="setDisplay(2)">2</button>
+        <button onclick="setDisplay(3)">3</button>
+        <button onclick="setDisplay('+')">+</button>
+        <button onclick="setDisplay('00')">00</button>
+        <button onclick="setDisplay(0)">0</button>
+        <button onclick="setDisplay('.')">.</button>
+        <button onclick="evalResult()">=</button>
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

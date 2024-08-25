@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madhusudhan Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="portfolio.png">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Madhusudhan</h1>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="aboutme">
+        <div class="container aboutme-container">
+            <div class="aboutme-image">
+                <img src="madhusudhan.jpg" alt="Madhusudhan">
+                <h2>Madhusudhan</h2>
+            </div>
+            <div class="aboutme-info">
+                <p>Hi, I'm Madhusudhan, a Computer Science and Engineering student at JSS Science and Technology
+                    University, Mysore. With a CGPA of 9.11, I'm deeply involved in various tech projects and
+                    continuously expanding my skills.<br> I'm passionate about gaming, learning new things online, and
+                    enjoying Kabaddi. I"m fluent in English, Kannada, and Hindi.</p>
+                <p>Feel free to connect with me.</p>
+                <div class="social-links">
+                    <a href="resumeF.pdf" class="resume-button" target="_blank">Download Resume</a><br>
+                    <a href="https://github.com/madhusudhan-06" target="_blank" class="social-button">GitHub</a>
+                    <a href="https://www.linkedin.com/in/madhusudhan-34090a292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                        target="_blank" class="social-button">LinkedIn</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-content">
+                <ul>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                </ul>
+                <ul>
+                    <li>MySQL</li>
+                    <li>Git</li>
+                    <li>Web Development</li>
+                    <li>Android Development</li>
+                </ul>
+                <ul>
+                    <li>React</li>
+                    <li>MongoDB</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2 class="sectionTitle">Projects</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <a href="https://github.com/madhusudhan-06/health-and-fitness" target="_blank">
+                        <img src="health.png" alt="Health App">
+                        <h3>Health App</h3>
+                    </a>
+                    <p>A basic application providing information on exercise, foods, and natural remedies.</p>
+                </div>
+                <div class="project">
+                    <a href="https://github.com/madhusudhan-06/Smart-Recommendation-System" target="_blank">
+                        <img src="Designer.png" alt="Smart Recommendation System">
+                        <h3>Smart Recommendation System</h3>
+                    </a>
+                    <p>A system that recommends movies and music content based on user preferences.</p>
+                </div>
+                <div class="project">
+                    <a href="https://github.com/madhusudhan-06/hotel-booking-system" target="_blank">
+                        <img src="hotel-reservation-services.jpg" alt="Hotel/Vehicle Booking System">
+                        <h3>Hotel/Vehicle Booking System</h3>
+                    </a>
+                    <p>A web application for booking hotels and vehicles with user authentication.</p>
+                </div>
+                <div class="project">
+                    <a href="https://github.com/madhusudhan-06/customer-churn-prediction" target="_blank">
+                        <img src="churn.jpg" alt="Customer Churn Prediction">
+                        <h3>Customer Churn Prediction</h3>
+                    </a>
+                    <p>A predictive model to identify customer churn in the telecom industry.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container contact-form">
+            <h2>Contact</h2>
+            <form id="contact-form"
+                onsubmit="event.preventDefault(); alert('Your message has been sent!'); this.reset();">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Madhusudhan. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
